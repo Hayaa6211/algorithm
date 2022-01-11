@@ -1,0 +1,10 @@
+version: "3"
+services:
+  algorithm:
+    # build: ./
+    image: ghcr.io/1219mai0410/algorithm
+    container_name: algorithm
+    volumes:
+      - ./code:/code
+    working_dir: /code
+    tty: true
