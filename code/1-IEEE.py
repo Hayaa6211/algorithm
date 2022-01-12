@@ -1,5 +1,5 @@
 import struct
-value = -14041.1
+value = float(input("^^"))
 
 buff = struct.pack(">f",value)
 he = list(buff.hex())
